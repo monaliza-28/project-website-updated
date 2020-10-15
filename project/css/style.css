@@ -1,0 +1,140 @@
+/* settings */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+   
+}
+a{
+    color:#333;
+    text-decoration:none;
+}
+h1,h2,h3{
+    padding-bottom:20px;
+}
+/* this serves as a container menu */
+.container{
+    margin: auto;
+    max-width:1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+/* educational background */
+img{
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+.p-left{
+    float: left;
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-right: 40px;
+
+}
+.p-right{
+    float: right;
+    width: 50%;
+    padding-top: 20px;
+    padding-right: 40px;
+    margin-left: 40px;
+}
+/* design for menu */
+#navbar{
+    background:#444;
+    color:#fff;
+    overflow:auto;
+}
+#navbar a{
+    color:#fff;
+}
+#navbar h1{
+    float:left;
+    padding-top:20px;
+}
+#navbar ul{
+    list-style:none;
+    float:right;
+}
+#navbar ul li{
+    float:left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+}
+/* design for my name and motto */
+.my-name{
+    background:url("../images/background.jpg")no-repeat center center/cover;
+    height:600px;
+}
+.content{
+    color:#ec451f ;
+    text-align: center;
+    padding-top: 170px;
+
+}
+a.button{
+    display: inline-block;
+    border: 2px solid  #444;
+    background-color:#fff;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 12px;
+    margin-top:20px;
+}
+/* educational background */
+.edu{
+    margin-bottom: 30px;
+}
+.edu-dashed{
+    border-top:2px dashed #333;
+    margin-top:10px;
+}
+.edu h1{
+    padding-top: 30px;
+    text-align: center;
+}
+/* services */
+.triple{
+    float:left;
+    margin: auto;  
+ 
+}
+
+.left{
+    float: left;
+}
+.middle{
+    float: left;
+    margin-left:130px;
+} 
+.right{
+    float: right;
+}
+.clr{
+    clear: both;
+}
+.para{
+    display: inline-block;
+}
+.para-left{
+    float: left;
+    margin-left: 70px;
+}
+.para-middle{
+    float: left;
+    margin-left: 370px;
+}
+.para-right{
+    float: right;
+    margin-left: 350px;
+}
+
+    
+]
